@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name = 'BinaryloaderNetwork'
+  s.name = 'BinaryLoaderNetwork'
   s.version = '1.0.4'
   s.license = { :type => 'MIT' }
   s.homepage = 'https://github.com/binaryloader/binaryloader-network'
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '13.0'
 
   s.source = { :git => 'https://github.com/binaryloader/binaryloader-network.git', :tag => s.version }
-  s.source_files = 'BinaryloaderNetwork/Module/Source/*.swift'
+  s.source_files = 'BinaryLoaderNetwork/Module/Source/*.swift'
 
   s.dependency 'Moya', '15.0.0'
 end

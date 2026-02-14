@@ -14,7 +14,7 @@
 		C8AA00242532DF060092F165 /* MoyaAsyncRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8AA00142532DF060092F165 /* MoyaAsyncRequest.swift */; };
 		C8AA00252532DF060092F165 /* MoyaProvider+Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8AA00152532DF060092F165 /* MoyaProvider+Async.swift */; };
 		C8AA00262532DF060092F165 /* MoyaAsyncError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8AA00162532DF060092F165 /* MoyaAsyncError.swift */; };
-		C8AA00272532DF060092F165 /* BinaryloaderNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = C8AA00172532DF060092F165 /* BinaryloaderNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8AA00272532DF060092F165 /* BinaryLoaderNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = C8AA00172532DF060092F165 /* BinaryLoaderNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,9 +25,9 @@
 		C8AA00142532DF060092F165 /* MoyaAsyncRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaAsyncRequest.swift; sourceTree = "<group>"; };
 		C8AA00152532DF060092F165 /* MoyaProvider+Async.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MoyaProvider+Async.swift"; sourceTree = "<group>"; };
 		C8AA00162532DF060092F165 /* MoyaAsyncError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaAsyncError.swift; sourceTree = "<group>"; };
-		C8AA00172532DF060092F165 /* BinaryloaderNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryloaderNetwork.h; sourceTree = "<group>"; };
+		C8AA00172532DF060092F165 /* BinaryLoaderNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryLoaderNetwork.h; sourceTree = "<group>"; };
 		C8AA00182532DF060092F165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C8AA00192532DF060092F165 /* BinaryloaderNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BinaryloaderNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8AA00192532DF060092F165 /* BinaryLoaderNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BinaryLoaderNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,7 @@
 		C8AA00022532DF060092F165 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C8AA00192532DF060092F165 /* BinaryloaderNetwork.framework */,
+				C8AA00192532DF060092F165 /* BinaryLoaderNetwork.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,7 +83,7 @@
 		C8AA00052532DF060092F165 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C8AA00172532DF060092F165 /* BinaryloaderNetwork.h */,
+				C8AA00172532DF060092F165 /* BinaryLoaderNetwork.h */,
 				C8AA00182532DF060092F165 /* Info.plist */,
 			);
 			path = "Supporting Files";
@@ -96,16 +96,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8AA00272532DF060092F165 /* BinaryloaderNetwork.h in Headers */,
+				C8AA00272532DF060092F165 /* BinaryLoaderNetwork.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		C8AA00342532DF060092F165 /* BinaryloaderNetwork */ = {
+		C8AA00342532DF060092F165 /* BinaryLoaderNetwork */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C8AA00412532DF060092F165 /* Build configuration list for PBXNativeTarget "BinaryloaderNetwork" */;
+			buildConfigurationList = C8AA00412532DF060092F165 /* Build configuration list for PBXNativeTarget "BinaryLoaderNetwork" */;
 			buildPhases = (
 				C8AA00302532DF060092F165 /* Headers */,
 				C8AA00312532DF060092F165 /* Sources */,
@@ -116,9 +116,9 @@
 			);
 			dependencies = (
 			);
-			name = BinaryloaderNetwork;
-			productName = BinaryloaderNetwork;
-			productReference = C8AA00192532DF060092F165 /* BinaryloaderNetwork.framework */;
+			name = BinaryLoaderNetwork;
+			productName = BinaryLoaderNetwork;
+			productReference = C8AA00192532DF060092F165 /* BinaryLoaderNetwork.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -136,7 +136,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C8AA00402532DF060092F165 /* Build configuration list for PBXProject "BinaryloaderNetwork" */;
+			buildConfigurationList = C8AA00402532DF060092F165 /* Build configuration list for PBXProject "BinaryLoaderNetwork" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -149,7 +149,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C8AA00342532DF060092F165 /* BinaryloaderNetwork */,
+				C8AA00342532DF060092F165 /* BinaryLoaderNetwork */,
 			);
 		};
 /* End PBXProject section */
@@ -322,7 +322,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.binaryloader.BinaryloaderNetwork;
+				PRODUCT_BUNDLE_IDENTIFIER = com.binaryloader.BinaryLoaderNetwork;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -349,7 +349,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.binaryloader.BinaryloaderNetwork;
+				PRODUCT_BUNDLE_IDENTIFIER = com.binaryloader.BinaryLoaderNetwork;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -360,7 +360,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C8AA00402532DF060092F165 /* Build configuration list for PBXProject "BinaryloaderNetwork" */ = {
+		C8AA00402532DF060092F165 /* Build configuration list for PBXProject "BinaryLoaderNetwork" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C8AA00422532DF060092F165 /* Debug */,
@@ -369,7 +369,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C8AA00412532DF060092F165 /* Build configuration list for PBXNativeTarget "BinaryloaderNetwork" */ = {
+		C8AA00412532DF060092F165 /* Build configuration list for PBXNativeTarget "BinaryLoaderNetwork" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C8AA00442532DF060092F165 /* Debug */,

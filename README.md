@@ -20,7 +20,7 @@ Async/await network abstraction layer built on Moya for iOS, distributed as a Co
 ```ruby
 source 'https://github.com/binaryloader/cocoapods-specs.git'
 
-pod 'BinaryloaderNetwork'
+pod 'BinaryLoaderNetwork'
 ```
 
 ## Related Repositories
