@@ -10,6 +10,11 @@ Async/await network abstraction layer built on Moya for iOS, distributed as a Co
 - **MoyaProvider+Async**: Extension enabling async/await syntax
 - **Moya+Wrapping**: Type aliases for cleaner public API
 
+## Requirements
+
+- iOS 13+
+- Swift 5.6+
+
 ## Installation
 
 ```ruby
@@ -17,11 +22,6 @@ source 'https://github.com/binaryloader/cocoapods-specs.git'
 
 pod 'BinaryloaderNetwork'
 ```
-
-## Requirements
-
-- iOS 13+
-- Swift 5.6+
 
 ## Related Repositories
 
