@@ -14,7 +14,7 @@ public protocol NetworkTarget: TargetType {
     var path: String { get }
     var method: Method { get }
     var sampleData: Data { get }
-    var task: HTTPTask { get }
+    var task: Task { get }
     var headers: [String: String]? { get }
     
 }

@@ -9,7 +9,7 @@ import Moya
 
 public typealias Session = Moya.Session
 public typealias Method = Moya.Method
-public typealias HTTPTask = Moya.Task
+public typealias Task = Moya.Task
 public typealias URLEncoding = Moya.URLEncoding
 public typealias JSONEncoding = Moya.JSONEncoding
 public typealias ParameterEncoding = Moya.ParameterEncoding
