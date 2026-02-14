@@ -8,7 +8,7 @@
 import Moya
 
 public typealias Session = Moya.Session
-public typealias HTTPMethod = Moya.Method
+public typealias Method = Moya.Method
 public typealias HTTPTask = Moya.Task
 public typealias URLEncoding = Moya.URLEncoding
 public typealias JSONEncoding = Moya.JSONEncoding
