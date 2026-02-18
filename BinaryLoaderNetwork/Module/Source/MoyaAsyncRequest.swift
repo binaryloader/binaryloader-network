@@ -2,7 +2,7 @@
 //  MoyaAsyncRequest.swift
 //  
 //
-//  Created by binaryloader on 2022/08/15.
+//  Created by BinaryLoader on 8/15/22.
 //
 
 final class MoyaAsyncRequest {
